@@ -10,9 +10,9 @@ import {
 
 const Navbar = () => {
   return (
-    <div>
+    <div className="font-[Inter]">
       {/* Top Bar */}
-      <div className="h-11 bg-[#1C4670] font-[inter]">
+      <div className="h-11 bg-[#1C4670]">
 
         <nav className="list-none h-full md:mr-5 flex gap-2 md:gap-3 justify-center items-center md:justify-end text-xs md:text-base text-[#FFFFFF]">
           <li>
