@@ -45,7 +45,7 @@ const Navbar = () => {
       </div>
 
       {/* Main Navbar */}
-      <div className="h-20 w-screen border-b-2 border-[#D1D1D199] bg-[#FFFFFF] font-[Open]">
+      <div className="h-20 w-screen border-b-2 border-[#D1D1D199] bg-[#FFFFFF]">
         <nav className="h-full flex justify-between items-center list-none text-[#272D37] pl-5 pr-5">
           <div>
             <img
