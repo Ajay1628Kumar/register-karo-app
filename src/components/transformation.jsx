@@ -2,8 +2,8 @@ import React from "react";
 
 const Transformation = ({ imgSrc, imgH1, imgH31, imgH32 }) => {
   return (
-    <div className="flex flex-col justify-center w-80 mt-8 lg:w-72 font-[Inter]">
-      <img src={imgSrc} alt="img1" className="h-40 object-cover" />
+    <div className="bg-[#edeef0] rounded-lg flex flex-col justify-center w-80 mt-8 lg:w-72 font-[Inter] shadow-2xl">
+      <img src={imgSrc} alt="img1" className="h-40 object-cover rounded-lg" />
 
       <h3 className="text-[#667085] text-sm font-semibold mt-3">{imgH31}</h3>
 

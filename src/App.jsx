@@ -78,7 +78,7 @@ const App = () => {
         <h1 className="text-[#3C2109] text-3xl text-center mt-4 font-bold">
           Accelerate Digital Transformation
         </h1>
-        <div className="mt-10 grid grid-cols-1 place-items-center lg:grid-cols-3">
+        <div className="mt-10 grid grid-cols-1 place-items-center md:grid-cols-2 lg:grid-cols-3">
           {arr.map((data) => {
             return (
               <Transformation
