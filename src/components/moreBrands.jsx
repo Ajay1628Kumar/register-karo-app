@@ -23,7 +23,7 @@ const MoreBrands = () => {
   ];
   return (
     <div className="flex flex-col justify-center items-center bg-[#ffffff] p-10 pb-0 border-b-2 border-[#D1D1D199] font-[inter]">
-      <div className="flex flex-wrap justify-center items-center gap-10">
+      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-10 gap-y-5">
         {imgData.map((data) => {
           return (
             <img

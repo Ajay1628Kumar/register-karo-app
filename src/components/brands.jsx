@@ -26,7 +26,7 @@ const Brands = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center gap-10">
+      <div className="flex flex-wrap justify-center items-center gap-10 gap-y-5">
         {imgD.map((data) => {
           return (
             <img

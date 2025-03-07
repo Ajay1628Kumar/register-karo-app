@@ -12,8 +12,8 @@ const Services = () => {
         </h1>
       </div>
 
-      <div className="flex flex-wrap justify-center items-center md:gap-10">
-        <div className="text-center mt-10 md:mt-14 w-72 md:w-96">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        <div className="shadow-lg rounded-lg bg-[#edeef0] text-center mt-10 md:mt-14 w-72">
           <i className="ri-macbook-line text-4xl text-[#FFA229]"></i>
           <h2 className="text-xl font-extrabold mt-3">Company Formation</h2>
           <p className="text-lg mt-4 text-[#282728]">
@@ -24,7 +24,7 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="text-center mt-10 md:mt-14 w-72 md:w-96">
+        <div className="shadow-lg rounded-lg bg-[#edeef0] text-center mt-10 md:mt-14 w-72">
           <i className="ri-box-3-fill text-4xl text-[#FFA229]"></i>
           <h2 className="text-xl font-extrabold mt-3">
             Company Secretarial Services
@@ -38,7 +38,7 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="text-center mt-10 md:mt-14 w-72 md:w-96">
+        <div className="shadow-lg rounded-lg bg-[#edeef0] text-center mt-10 md:mt-14 w-72">
           <i className="ri-group-3-fill text-4xl text-[#FFA229]"></i>
           <h2 className="text-xl font-extrabold mt-3">
             Virtual Office Address
@@ -51,7 +51,7 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="text-center mt-10 md:mt-14 w-72 md:w-96">
+        <div className="shadow-lg rounded-lg bg-[#edeef0] text-center mt-10 md:mt-14 w-72">
           <i className="ri-box-3-fill text-4xl text-[#FFA229]"></i>
           <h2 className="text-xl font-extrabold mt-3">
             Annual Compliance Services
@@ -64,7 +64,7 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="text-center mt-10 md:mt-14 w-72 md:w-96">
+        <div className="shadow-lg rounded-lg bg-[#edeef0] text-center mt-10 md:mt-14 w-72">
           <i className="ri-shopping-cart-fill text-4xl text-[#FFA229]"></i>{" "}
           <h2 className="text-xl font-extrabold mt-3">Payroll Services</h2>
           <p className="text-lg mt-4 text-[#282728]">
@@ -75,9 +75,9 @@ const Services = () => {
           </button>
         </div>
 
-        <div className="text-center mt-10 md:mt-14 w-72 md:w-96">
+        <div className="shadow-lg rounded-lg bg-[#edeef0] text-center mt-10 md:mt-14 w-72">
           <i className="ri-macbook-fill text-4xl text-[#FFA229]"></i>{" "}
-          <h2 className="text-xl font-extrabold mt-3">Bookkeeping Services</h2>
+          <h2 className="text-xl font-extrabold mt-3">Book-keeping Services</h2>
           <p className="text-lg mt-4 text-[#282728]">
             Steering user behaviours with creative design, data insights &
             technology.

@@ -11,7 +11,7 @@ const ImportantNumber = () => {
         Some Numbers are important
       </h1>
 
-      <div className="mt-10 grid grid-cols-2 gap-10 place-items-center md:grid-cols-6">
+      <div className="mt-10 grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 items-center gap-5 gap-y-10">
         <div className="flex flex-col justify-center items-center">
           <p className="text-5xl font-bold bg-gradient-to-r from-[#FFA229] to-[#2F5795] text-transparent bg-clip-text">
             1M
